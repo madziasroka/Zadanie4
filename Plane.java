@@ -11,6 +11,6 @@ public class Plane implements Flyable,Speakable{
 
     @Override
     public String speak() {
-        return "sssss";
+        return null;
     }
 }

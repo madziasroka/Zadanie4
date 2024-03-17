@@ -16,6 +16,7 @@ public class Main {
         Speakable planeSpeak = () -> "szzzzzzzz";
         Speakable ufoSpeak = () -> "jdhushjs";
 
+
         Speakable[] stab = new Speakable[]{birdSpeak, planeSpeak, ufoSpeak};
 
         Flyable shorted = shortestDis(ftab);
@@ -23,8 +24,6 @@ public class Main {
 
         Speakable loud = loudest(stab);
         System.out.println("Najglosniejszy dzwiek: " + loud.speak());
-
-
 
     }
 

@@ -11,6 +11,7 @@ public class UFO implements Flyable,Speakable{
 
     @Override
     public String speak() {
-        return "sdhkhihsfkdj";
+        return null;
     }
 }
+

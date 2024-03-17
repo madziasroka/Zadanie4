@@ -11,6 +11,6 @@ public class Bird implements Flyable,Speakable{
 
     @Override
     public String speak() {
-        return "cwir";
+        return null;
     }
 }
